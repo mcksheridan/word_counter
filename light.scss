@@ -1,0 +1,10 @@
+@use 'style' with(
+    //Light mode color palette
+    $dark-color: invert(#001931),
+    $darker-color: invert(#001529),
+    $darkest-color: invert(#000e1c),
+    $mid-color: invert(#002A53),
+    $accent-color-darker: invert(#003971),
+    $accent-color-lighter: invert(#007CF7),
+    $text-color: invert(#ccc)
+);

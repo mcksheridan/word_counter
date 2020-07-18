@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP&display=swap");
+.page {
+  background-color: #000e1c;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #ccc;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  color: #ccc;
+  text-align: center;
+}
+
+.input {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #001931;
+  color: #ccc;
+  border: 2px solid #001529;
+  height: 200px;
+  width: 100%;
+}
+
+.count {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 1.5vh;
+  margin: 5vh 0vh 5vh;
+  font-family: "Kosugi Maru", sans-serif;
+}
+.count .count_result {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.count .count_result .count_page-en {
+  width: 4rem;
+}
+.count .count_result .count_page-ja {
+  width: 2rem;
+}
+
+.count .count_result .count_character, .count .count_result .count_word, .count .count_result .count_page-en, .count .count_result .count_page-ja {
+  color: #007CF7;
+  font-size: 2rem;
+}
+
+.buttons {
+  text-align: center;
+}
+.buttons .buttons_count, .buttons .buttons_clear {
+  border: 5px solid #001931;
+  background-color: #002A53;
+  color: #ccc;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 1vh 5vw 1vh 5vw;
+  margin: 2.5vh 5vw 0% 5vw;
+}
+
+.color-mode {
+  margin-top: 15vh;
+  text-decoration: underline;
+}
+.color-mode:hover {
+  color: #007CF7;
+  cursor: pointer;
+}
+.color-mode:active {
+  color: #003971;
+}
+
+/*# sourceMappingURL=dark.css.map */
